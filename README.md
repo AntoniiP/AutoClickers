@@ -1,5 +1,5 @@
 # AutoClickers
-The same auto clicker in multiple languages for better performance.
+The same auto clicker in multiple languages for better performance and efficiency.
 
 ## Install files (all Auto Clickers)
 ```bash
@@ -9,9 +9,12 @@ git clone https://github.com/AntoniiP/AutoClickers .
 - GCC
   
 ## Compile C++ Auto Clickers
+1. Change directory
 ```bash
 cd C++
 ```
+2. Compile the desired Auto Clicker:
+- Multi threading with 28ms delay:
 ```bash
 g++ -O3 -march=native -mtune=native -pthread -std=c++11 -o AutoClicker auto_multi_threading.cpp
 ```
@@ -25,3 +28,4 @@ Explanation of flags:
 - -o AutoClicker: Specifies the output executable file.
 
 Note: This optimization on efficiency and performance this aggressively might not always yield better performance and could introduce unexpected behaviour based on multiple factors, such as specific hardware. 
+
