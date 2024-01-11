@@ -29,3 +29,20 @@ Explanation of flags:
 
 Note: This optimization on efficiency and performance this aggressively might not always yield better performance and could introduce unexpected behaviour based on multiple factors, such as specific hardware. 
 
+## Requirements for JS Auto Clicker:
+- Node.js version 18.17.1+
+
+## Run JS Auto Clicker
+1. Change directory
+```bash
+cd JS
+```
+2. Install dependencies and run Auto Clicker:
+```bash
+npm i
+```
+```bash
+node .
+```
+
+
