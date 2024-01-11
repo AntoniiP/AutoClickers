@@ -1,6 +1,13 @@
 # AutoClickers
 The same auto clicker in multiple languages for better performance and efficiency.
 
+## Comparison table between all current Auto Clickers (best of three tests of [10 seconds](https://cpstest.org/).
+| Rank | Script Name                | CPS   | Max CPU Utilization | RAM Usage |
+|------|----------------------------|-------|---------------------|-----------|
+| 1    | auto_multi_threading.cpp   | 26    | 0.1%                | 7 MB      |
+| 2    | auto.js                    | 25.8  | 0%                  | 0.8 MB    |
+
+
 ## Install files (all Auto Clickers)
 ```bash
 git clone https://github.com/AntoniiP/AutoClickers .
