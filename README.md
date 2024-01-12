@@ -2,11 +2,12 @@
 The same auto clicker in multiple languages for better performance and efficiency.
 
 ## Comparison table between all current Auto Clickers (best of three [tests of 10 seconds](https://cpstest.org/).
-| Rank | Script Name                | CPS   | Max CPU Utilization | RAM Usage |
-|------|----------------------------|-------|---------------------|-----------|
-| 1    | auto_28ms.c                | 26.2  | 0.3%                | 6.8 MB    |
-| 2    | auto_multi_threading.cpp   | 26    | 0.1%                | 7 MB      |
-| 3    | auto.js                    | 25.8  | 0%                  | 0.8 MB    |
+| Rank | Script Name                   | CPS   | Max CPU Utilization | RAM Usage |
+|------|-------------------------------|-------|---------------------|-----------|
+| 1    | main.rs (Rust)                | 29    | 0.4%                | 5.8 MB    |
+| 2    | auto_28ms.c (C)               | 26.2  | 0.3%                | 6.8 MB    |
+| 3    | auto_multi_threading.cpp (C++)| 26    | 0.1%                | 7 MB      |
+| 4    | auto.js (JavaScript)          | 25.8  | 0%                  | 0.8 MB    |
 
 Note: This can vary from system to system, and different settings inside each script may produce different results. Changing the 28ms interval in each auto clicker will affect the results considerably. 
 
